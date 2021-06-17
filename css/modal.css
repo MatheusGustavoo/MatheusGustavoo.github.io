@@ -18,12 +18,13 @@
 }
 
 .Modal-conteiner {
-  height: 100vh;
+    height: 100%;
   width: 100%;
   position: fixed;
   background: rgba(0, 0, 0, .5);
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 20;
   display: none;
   justify-content: center;
