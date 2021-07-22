@@ -13,6 +13,18 @@ body {
   background: linear-gradient(226.68deg, #19A6A5 -3.17%, #59CD90 52.72%, #A8FE75 122.39%);
 }
 
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #54C489;
+}
+
+h2 {
+  font-size: 18px;
+  color: #969696;
+  font-weight: 600;
+}
+
 .box {
   width: 600px;
   height: 610px;
