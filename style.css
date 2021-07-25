@@ -49,11 +49,16 @@ h2 {
   background: #41594C;
   box-shadow: 0px 0px 10px #275C40;
   border-radius: 10px;
-  color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-decoration: none;
+  color: white;
 }
+
+  .lista a{
+  text-decoration: none;
+  color: white;
+
+  }
 
 .lista li:hover {
   background-color: #46A372;
