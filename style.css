@@ -1,0 +1,114 @@
+body, ul, li, a, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+body {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  background: linear-gradient(226.68deg, #19A6A5 -3.17%, #59CD90 52.72%, #A8FE75 122.39%);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #54C489;
+}
+
+h2 {
+  font-size: 18px;
+  color: #969696;
+  font-weight: 600;
+}
+
+.box {
+  width: 600px;
+  height: 610px;
+  background-color: white;
+  margin: 70px auto;
+  box-shadow: 0px 0px 25px #686767;
+  border-radius: 29px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+  margin-top: -20px;
+}
+
+.lista li {
+  list-style: none;
+  width: 458px;
+  background: #41594C;
+  box-shadow: 0px 0px 10px #275C40;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+  .lista a{
+  text-decoration: none;
+  color: white;
+
+  }
+
+.lista li:hover {
+  background-color: #46A372;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.conteudo {
+  width: 379px;
+  height: 112px;
+  background: rgba(224, 224, 224, 0.65);
+  box-shadow: 0px 0px 10px #847E7E;
+  border-radius: 56px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  box-sizing: border-box;
+}
+
+.github {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.github li {
+  margin-top: 25px;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  cursor: pointer;
+}
+
+@media (max-width: 620px) {
+  body {
+    font-size: 16px;
+  }
+  .box {
+    width: 90vw;
+    height: 550px;
+  }
+  .lista li {
+    width: 70vw;
+    height: 3vh;
+  }
+  .conteudo {
+    width: 60vw;
+    height: 14vh;
+  }
+  .conteudo img {
+    width: 80%;
+    height: 80%;
+  }
+}
